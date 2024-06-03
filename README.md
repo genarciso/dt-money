@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# DT Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introdução
 
-Currently, two official plugins are available:
+Este é um projeto destinado para estudos da biblioteca [React](https://react.dev/) e suas bibliotecas derivadas,
+no qual foi produzido através do curso de React da [Rocketseat](https://www.rocketseat.com.br/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto consiste na criação de uma dashboard de gerenciamento financeiro pessoal. 
+Que poderá ser cadastrado, visualizado, removido e editado as informações
 
-## Expanding the ESLint configuration
+_Obs.:_ O projeto possui alguns comentários com anotações de estudo sobre funcionalidades e bibliotecas em português.
+Que consistem em observações e lembretes de fixação.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Instalação
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Pré - requisitos
+
+  1. Possuir [node](https://nodejs.org/en) instalado
+  2. Possuir o [yarn](https://yarnpkg.com/) instalado
+  
+```shell
+yarn 
+
+yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
